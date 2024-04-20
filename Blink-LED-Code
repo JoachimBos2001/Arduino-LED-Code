@@ -1,4 +1,4 @@
-const int ledPin = 13; //* 13 is for where the LED is located. U can change this if your LED is located somewhere else on your board.
+const int ledPin = 13; //* 13 is for where the LED is located. You can change this if your LED is located somewhere else on your board.
 void setup() {
 pinMode(ledPin, OUTPUT);
 }
