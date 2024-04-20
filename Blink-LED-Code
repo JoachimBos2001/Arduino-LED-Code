@@ -1,0 +1,10 @@
+const int ledPin = 13; //* 13 is for where the LED is located. U can change this if your LED is located somewhere else on your board.
+void setup() {
+pinMode(ledPin, OUTPUT);
+}
+void loop() {
+digitalWrite(ledPin, HIGH); //* Used to turn the led on.
+delay(500); //* Change this if you want!
+digitalWrite(ledPin, LOW); //* Used to turn the led off.
+delay(500); //* Change this if you want to!
+}
