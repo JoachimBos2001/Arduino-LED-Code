@@ -15,5 +15,8 @@ void loop() {
             Serial.println("LED turned off"); //* You can change this to if you want.
 
         }
+        else {
+          Serial.println("Ivalid command. Please type on or off.");
+        }
     }
 }
